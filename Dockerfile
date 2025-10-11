@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Use latest n8n version
 ARG N8N_VERSION=1.114.3

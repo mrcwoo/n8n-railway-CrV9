@@ -1,7 +1,7 @@
 FROM node:18-alpine
 
 # Use latest n8n version
-ARG N8N_VERSION=1.84.0
+ARG N8N_VERSION=1.114.3
 
 # Install n8n
 RUN npm install -g n8n@${N8N_VERSION}
